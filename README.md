@@ -7,6 +7,7 @@ This project simulates a basic cloud computing environment using **CloudSim 4.0*
 ## 📁 Project Structure
 
 CloudSimProject/
+
 ├── src/
 │ └── cloudsim/
 │ ├── SJF_Scheduler.java
@@ -39,11 +40,13 @@ CloudSimProject/
    ```bash
    git clone https://github.com/AlgoAdept/CloudSimProject.git
    cd CloudSimProject
-2. **Compile the code**
+2. **Compile the code :**
+   ```bash
    javac -cp "lib/*" -d bin src/cloudsim/*.java
-3. **Run the code**
+4. **Run the code**
+   ```bash
    java -cp "bin;lib/*" cloudsim.SJF_Scheduler
-The simulation displays:
+6. **The simulation displays:**
 
 Creation of datacenters and virtual machines
 
@@ -53,10 +56,10 @@ Execution timeline, start/finish/waiting times
 
 Final Makespan (total time taken to complete all tasks)
 
-🔎 What is CloudSim?
+**🔎 What is CloudSim?**
 CloudSim is a Java-based simulation toolkit for modeling cloud environments and services. Developed by the CLOUDS Lab, it helps researchers and developers test scheduling, provisioning, and resource management without using real cloud infrastructure. It's widely used in academic research and prototyping cloud strategies.
 
-📌 SJF Scheduler (Shortest Job First)
+**📌 SJF Scheduler (Shortest Job First)**
 Greedy, non-preemptive algorithm
 
 Prioritizes cloudlets with the shortest execution time
